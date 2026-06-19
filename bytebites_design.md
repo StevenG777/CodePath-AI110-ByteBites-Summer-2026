@@ -1,3 +1,4 @@
+```mermaid
 classDiagram
     class Customer_Info {
         -String name
@@ -30,3 +31,4 @@ classDiagram
     Order_Info o-- "many" Mechandise_Info : catalogs
     Transaction_Info o-- "1..*" Mechandise_Info : contains
     Customer_Info "1" --> "many" Transaction_Info : has history
+```
